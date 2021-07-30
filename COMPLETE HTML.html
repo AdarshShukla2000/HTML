@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>adarsh</title>
+    </head>
+        <body>
+            <p>this is for user</p>
+        </body>
+</html>
+
+<!DOCTYPE html> --> this defines the type of html(as here HTML 5) and also provides information to the user about the code format
+[HTML is not case sensitive language whereas , XHTML  is an case sensitive language]
+
+element- paragraph link image video 
+<tag name attr1="value">content</tag name>
+    <p width="100px">this is p tag</p>
+attribute- additional info about element
+
+<img src=""> does not require closing tag (example of empty html tag) the content in the form of attribute is defind within the tag
+likewise <br> used to create spacing.. new line(another example of empty html tag)
+
+INDENTATION- proper spacing ; good sign of a professional coder ; efficient to use 
+
+comment- necessary to make user compatible and make any necessary changes in the future as per user requirement 
+<!--this is comment-->
+
+ctrl+u / open source code -> to view the entire code 
+
+<!--heading part-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>this is html</title>
+    </head>
+    <body>
+        <h1>HEADING 1</h1>
+        <hr>
+        <!--hr(horizontal rule)an empty tag used to draw a differentiating line-->
+        <h2>HEADING 2</h2>
+        <h3>HEADING 3</h3>
+        <h4>HEADING 4</h4>
+        <h5>HEADING 5</h5>
+        <h6>HEADING 6</h6>
+    </body>
+</html>
+
+<!--paragraph-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>this is my webpage</title>
+    </head>
+    <body>
+         <p>All existing matter and space considered as a whole; the cosmos. 
+            The universe is believed to be at least 10 billion light years
+            <br><br><br>
+            <!--br tag is used for new line (empty tag)-->
+             in diameter and contains a vast number of galaxies;
+             it has been expanding since its creation in the Big Bang about 13 billion years ago. </p>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>this is my webpage</title>
+    </head>
+    <body>
+         <pre>
+             All existing matter and space considered as a whole; the cosmos. 
+            The universe is believed to be at least 10 billion light years
+            
+             in diameter and contains a vast number of galaxies;
+             it has been expanding since its creation in the Big Bang about 13 billion years ago.
+        </pre>
+    </body>
+</html>
+<!--pre tag is used normally while writing code[this gives the output in the same format as the source(body) code]-->
+
+<!DOCTYPE html>
+<!--formatting-->
+<html>
+    <head>
+        <title>this is my webpage</title>
+    </head>
+    <body>
+         <p>All existing<b>matter</b>  and space considered as a whole; the<strong>cosmos.</strong>  
+            <i>The universe</i> is believed to be at least <em>10 billion light years</em>
+             in diameter and contains a <ins>vast number of galaxies</ins>;
+             it has <small>been expanding</small> since its creation<del>on</del> in the <mark>Big Bang about 13 billion years ago.</mark>
+            <br><br>
+        X<sub>2</sub> 
+        Y<sup>2</sup></p>
+    </body>
+</html>
+<!--<b>tag is to make the text bold
+    <strong>tag is used to make the text bold and emphasize it
+        <i>tag is used to itlicise the tag
+            <em>tag is used to itlaicize and emphasize the text part
+                <small>tag is used to decrease the font size
+                    <mark>tag is used to highlight the text
+                        <del>tag is used to delete tha text from the article basically to avoid the users attention
+                            <ins>tag is used to underline the text
+                                <sub>tag is used to write the numerals in the base X2(useful in mathematics)
+                                    <sup>tag is used to write the numerals in the power X^2(useful in mathematics)-->
+
+
+
+<!--QUOTATION AND CITATION-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>this is my webpage</title>
+    </head>
+    <body>
+         <p>
+            <q> All existing matter and space considered as a whole; the cosmos. 
+            The universe is believed to be at least 10 billion light years
+            
+             in diameter and contains a vast number of galaxies;
+             it has been expanding since its creation in the Big Bang about 13 billion years ago.</q>
+        </p>
+    </body>
+</html>
+<!--<q>tag represents some phrasing content quoted-->
+ <!DOCTYPE html>
+    <html>
+        <head>
+            <title>this is my webpage</title>
+        </head>
+        <body>
+             <p>
+                <blockquote cite="https://www.google.com"> All existing matter and space considered as a whole; the cosmos. 
+                The universe is believed to be at least 10 billion light years
+                
+                <abbr title="World Health Organization">WHO</abbr> in diameter and contains a vast number of galaxies;
+                 it has been expanding since its creation in the Big Bang about 13 billion years ago.</blockquote>
+            </p>
+            <address>Bangalore,Karnataka</address>
+            <cite>Concepts Of Modern Physics</cite>Arthur Beiser...
+        </body>
+    </html> 
+    <!--<blockquote>The blockquote element represents content that is quoted from another source,
+         optionally with a citation which must be within a footer or cite element,
+         and optionally with in-line changes such as annotations and abbreviations.
+         <abbr>tag is used to represent an abbreviation or acronym
+            <address>tag The address element represents the contact information for its nearest article or body element ancestor. 
+                If that is the body element, then the contact information applies to the document as a whole.
+                <cite>The cite element represents a reference to a creative work. It must include the title of the work or the name
+                 of the author(person, people or organization) or an URL reference,
+                 or a reference in abbreviated form as per the conventions used for the addition of citation metadata.-->
+
+
+
+<!--HTML LINKS-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>this is my webpage</title>
+    </head>
+    <body>
+         <p>
+             All existing matter and space considered as a whole; the cosmos. 
+            The universe is believed to be at least 10 billion light years
+            
+             in diameter and contains a vast number of galaxies;
+             it has been expanding since its creation in the Big Bang about 13 billion years ago.
+             <a href="https://www.google.com" target="_blank" title="go to google.com">Read More</a> 
+        </p>
+    </body>
+</html>
+<!--<a> anchor tag -If the a element has an href attribute, 
+    then it represents a hyperlink (a hypertext anchor) labeled by its contents.
+target attribute is used to specify where to dispaly the URL
+title attribute gives hint to the user(on hovering)-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>this is my webpage</title>
+    </head>
+    <body>
+         <p>
+             All existing matter and space considered as a whole; the cosmos. 
+            The universe is believed to be at least 10 billion light years
+            
+             in diameter and contains a vast number of galaxies;
+             it has been expanding since its creation in the Big Bang about 13 billion years ago.
+             <a href="#local" target="_blank" title="go to google.com">Read More</a> 
+        </p>
+        <p id="local">Globular clusters, however, are larger, more massive, and more isolated, found throughout the halo of the Milky Way
+         (and most large galaxies). When we observe them, we can measure the colors and brightnesses of many of the stars inside,
+          enabling us — so long as we understand how stars work and evolve — to determine </p>
+          <p>the ages of these star clusters. 
+            Although there are uncertainties here as well,
+            there is a large population of globular clusters, even within the Milky Way alone, with ages of 12 billion years or more.</p>
+                
+        </p>
+    </body>
+</html>
+<!--id attribute Defines a unique identifier (ID) which must be unique in the whole document. 
+    Its purpose is to identify the element when linking (using a fragment identifier), scripting, or styling (with CSS). -->
+
+<!--EMAIL LINKS-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>this is a html page</title>
+    </head>
+    <body>
+
+    <p>
+        contact us on <a href="mailto:admin@website.com?subject=HELLO WORLD">admin@website.com</a>
+    </p>
+
+    </body>
+</html>    
+<!--href attribute contains a URL or URL fragment  that the hyperlink points to -->
+
+
+<!--IMAGE IN HTML-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>this is a html page</title>
+    </head>
+    <body>
+        <img src="black hole.jpg" alt="darkest object" width="400" height="200" >
+    </body>
+</html>
+<!--<img> an empty tag for image
+src attribute is used to specify the path of the image
+alt attribute gives alternative text description of an image
+width attribute  - intrinsic width of the image in pexels
+height attribute- intrinsic height of the image in pexels-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>this is a html page</title>
+    </head>
+    <body>
+        <img src="images/black hole.jpg">
+    </body>
+</html>
+<!--format for specifying the path of an iamge in a folder- foldername/image source-->
+
+<!--MARQUEE(for moving text)-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>this is a html page</title>
+        <body>
+            <marquee direction="right">THIS IS MOVING TEXT </marquee>
+        </body>
+    </head>
+</html>
+
+
+<!--ordered list-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>this is a html page</title>
+        <body>
+            <ol type="I">
+                <li>strawberry shake</li>
+                <ol>
+                    <li>cold</li>
+                    <li>cold with cherry</li>
+                </ol>
+
+                <li>mango shake</li>
+                <li>pineapple shake</li>
+            </ol>
+        </body>
+    </head>
+</html>
+<!--ol tag  represents a list of items 
+li tag- The li element represents a list item
+type- Indicates the numbering type-->
+
+<!--unordered list-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>this is a html page</title>
+        <body>
+            <ul style="list-style-type: georgian;">
+                <li>strawberry shake</li>
+                <ol>
+                    <li>cold</li>
+                    <li>cold with cherry</li>
+                </ol>
+
+                <li>mango shake</li>
+                <li>pineapple shake</li>
+            </ul>
+        </body>
+    </head>
+</html>
+
+<!--DESCRIPTION LIST-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>this is a html page</title>
+    </head>
+    <body>
+        <dl>
+            <dt>coffee</dt>
+               <dd>-hot black drink</dd>
+            <dt>milk</dt>
+               <dd>-cold white drink</dd>   
+        </dl>
+    </body>
+</html>
+
+
+
+<!--HTML TABLE-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is a html page</title>
+    </head>
+    <body>
+        <table border="100">
+            <caption>TABLE EXAMPLE</caption>
+            <tr>
+                <th>row 1</th>
+                <td>data a</td>
+                <td>data b</td>
+                <td>data c</td>
+                
+               
+            </tr>
+            <tr>
+                <th rowspan="3">row 2</th>
+                <td><img src="images/black hole.jpg"></td>
+                <td colspan="2"><a href="https://ww.google.com">GOOGLE</a></td>
+               
+            </tr>
+            <tr>
+            
+                <td>data 4</td>
+                <td>data 5</td>
+                <td>data 6</td>
+            </tr>
+            <tr>
+                
+                <td>data 7</td>
+                <td>data 8</td>
+                <td>data 9</td>
+            </tr>
+        </table>
+        
+    </body>
+</html>
+<!--<table> The table element represents data with more than one dimension, in the form of a table.
+    <caption>The caption element represents the title of the table that is its parent, if it has a parent and that is a table element.
+        border attribute is used to make borders of a table 
+        <tr>The tr element represents a row of cells in a table.
+         <td> The td element represents a data cell in a table.
+             rowspan attribute is used to merge two rows
+            colspan sttribute is used to merge two columns  -->
+
+
+
+<!--table formatting-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is a html page</title>
+    </head>
+    <body>
+        <table border="100">
+            <caption>TABLE EXAMPLE</caption>
+            <thead style="color:chocolate">
+            <tr>
+                <th>column 1</th>
+                <th>column 2</th>
+                <th>column 3</th>
+               
+            </tr>
+        </thead>
+        <tbody style="color:blueviolet">
+            <tr>
+                
+                <td>data 1</td>
+                <td>data 2</td>
+                <td>data 3</td>
+               
+            </tr>
+            <tr>
+                <td>data 4</td>
+                <td>data 5</td>
+                <td>data 6</td>
+            </tr>
+            <tr>
+                <td>data 7</td>
+                <td>data 8</td>
+                <td>data 9</td>
+            </tr>
+            </tbody>
+            <tfoot style="color:crimson">
+                <tr>
+                    <th>column 1</th>
+                    <th>column 2</th>
+                    <th>column 3</th>
+                   
+                </tr>
+            </tfoot>
+        </table>
+        
+    </body>
+</html>
+<!--<thead>The thead element represents the block of rows that consist of the column labels (headers) for the parent table element, 
+    if the thead element has a parent and it is a table.
+<tbody>The tbody element represents a block of rows that consist of a body of data for the parent table element, 
+    if the tbody element has a parent and it is a table.
+<tfoot>The tfoot element represents the block of rows that consist of the column summaries (footers) for the parent table element,
+     if the tfoot element has a parent and it is a table.
+    STYLE attribute Contains CSS styling declarations to be applied to the element. Note that it is recommended for styles to be 
+    defined in a separate file or files. This attribute and the <style> element have mainly the purpose of allowing for quick styling,
+         for example for testing purposes.-->
+
+
+ <!--NESTED TABLE--> 
+ <!DOCTYPE html>
+ <html>
+     <head>
+         <title>this is my html page</title>
+     </head>
+     <body>
+        <table border="100">
+            <caption>TABLE EXAMPLE</caption>
+            <thead style="color:chocolate">
+            <tr>
+                <th>column 1</th>
+                <th>column 2</th>
+                <th>column 3</th>
+               
+            </tr>
+        </thead>
+        <tbody style="color:blueviolet">
+            <tr>
+                
+                <td>data 1</td>
+                <td>data 2</td>
+                <td>data 3</td>
+               
+            </tr>
+            <tr>
+                <td>data 4</td>
+                <td>
+                    <table border="2">
+                        <tr>
+                            <td>col 1</td>
+                            <td>col 2 </td>
+                        </tr>
+                        <tr>
+                            <td>col 3</td>
+                            <td>col 4</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>data 6</td>
+            </tr>
+            <tr>
+                <td>data 7</td>
+                <td>data 8</td>
+                <td>data 9</td>
+            </tr>
+            </tbody>
+            <tfoot style="color:crimson">
+                <tr>
+                    <th>column 1</th>
+                    <th>column 2</th>
+                    <th>column 3</th>
+                   
+                </tr>
+            </tfoot>
+        </table>
+        
+
+     </body>
+ </html>
+
+
+ <!--DIV AND SPAN
+ THE TWO TYPE OF STRUCTURE ELEMENT :
+ DIV - BLOCK ELEMENT
+ SPAN - INLINE ELEMENT
+
+ DIV - BLOCK ELEMENT
+      A block level element always starts on a new line and takes up the full width available (stretches out to the left and right       
+      as far as it can)
+         <DIV> </div>
+
+ SPAN - INLINE ELEMENT
+    An inline element and does not start on a new line and only takes as much as width as necessary.
+            <span> </span>   -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my html page</title>
+    </head>
+    <body>
+        <div style="border: 1px solid red;">random text</div>
+        <div style="border: 1px solid red;">random text</div>
+        <br>
+        <span style="border: 1px solid red;">random text</span>
+        <span style="border: 1px solid red;">random text</span>
+    </body>
+</html>
+
+
+<!--IFrame-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my html page</title>
+    </head>
+    <body>
+        <!--iframe tag represents nested browsing element-->
+        <iframe src="https://www.ndtv.com/" height="500" width="500"></iframe>
+        <iframe src="https://www.abplive.com/" height="500" width="500"></iframe>
+    </body>
+</html>
+
+
+
+<!--HTML AUDIO-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my html page</title>
+    </head>
+    <body>
+        <audio controls>
+            <source src="runaway-aurora-53365.mp3" type="audio/mpeg">
+            YOUR BROWSER DOES NOT SUPPORT THIS TYPE OF FILE
+        </audio>
+    </body>
+</html>
+
+
+<!--HTML VIDEO-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my html page</title>
+    </head>
+    <body>
+        <video controls>
+         <source src="file_example_MP4_480_1_5MG.mp4" >
+        </video>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my html page</title>
+    </head>
+    <body>
+        <video width="1000" height="500" controls autoplay>
+         <source src="file_example_MP4_480_1_5MG.mp4" type="video/mp4">
+         YOUR BROWSER DOES NOT SUPPORT THIS TYPE OF FILE.
+        </video>
+    </body>
+</html>
+
+
+
+<!--EMBED PDF-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my html page</title>
+    </head>
+    <body>
+        <!--embed-->
+        <!--embed src="AdarshShukla12018143.pdf" type="application/pdf" width="500" height="500"-->
+        <!--iframe-->
+        <!--iframe src="AdarshShukla12018143.pdf" width="800" height="800"></iframe-->
+        <!--object-->
+        <object data="AdarshShukla12018143.pdf" type="application/pdf" width="1000" height="400"></object>
+    </body>
+</html>
+
+
+
+<!--EMBED YOUTUBE VIDEO-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is html page</title>
+    </head>
+    <body>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LbZUV7xcDps" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; 
+        autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </body>
+</html>
+
+
+
+<!--EMBED GOOGLE MAP-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my html page</title>
+    </head>
+    <body>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14010.762555405148!2d77.22415013123788!3d28.609056168831078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2db961be393%3A0xf6c7ef5ee6dd10ae!2sIndia%20Gate%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1619265148516!5m2!1sen!2sin" 
+        width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </body>
+</html>
+
+
+
+<!--HTML ENTITIES refer w3schools.com-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my html page</title>
+    </head>
+    <body>
+        <!--html entities-->
+        <!--name-->
+        <!--&name;-->
+        &lt;div &gt;
+        <!--number-->
+        <!--&#number;-->
+        &#60;div &#62;
+        <p>hello&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; world</p>
+    </body>
+</html>
+
+
+
+<!--HTML SYMBOLS-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my html page</title>
+    </head>
+    <body>
+        &copy;
+        &#8508;
+    </body>
+</html>
+
+
+
+<!--HTML EMOJI-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my html page</title>
+    </head>
+          <body> 
+          &#128516;
+          </body>
+</html>
+<!--refer w3schools.com for more emojis-->
+
+
+
+<!--semantic elements-->
+<!--semantic elements-element with a meaning 
+    A semantic element clearly describes its meaning to both browser and developer -->
+    <!--example of non-semantic elements -  <div> and <span> tells nothing about its content-->
+        <!--example of semantic element- <form><table><article>-clearly tells about its content-->
+            <!--new semantic elements in html 5 are: <article>, <aside> , <details>, <figcaption>, <figure>, <footer>,<header>,<main>,
+            <mark>, <nav>, <section>, <summary>, <time> -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my html page</title>
+    </head>
+    <body>
+         
+    </body>
+</html>
+
+
+
+
+
+
+<!--HTML IMAGE MAPS-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my html page</title>
+    </head>
+    <body>
+        <img src="worktable.jpg" usemap="#image_map">
+        <map name="image_map">
+          <area alt="laptop" title="laptop" href="https://www.amazon.in/s?k=laptop&ref=nb_sb_noss_2"" coords="585,131,1274,1777" shape="rect">
+          <area alt="mobile" title="mobile" href="https://www.amazon.in/s?k=mobile&ref=nb_sb_noss_2" coords="1386,237,1620,521" shape="rect">
+        </map>
+    </body>
+</html>
+<!--imagemap.org awesome website for coordinates-->
+
+
+
+
+<!--HTML FORMS-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my html page</title>
+    </head>
+    <body>
+        <form method="GET/POST" action="submit.php" > <!--this is  for backend-->
+            <div>
+                Name:
+                <input type="text">
+            </div>
+            <div>
+                <br>
+                <input type="submit" value="submit form">
+            </div>
+            
+        </form>
+         
+    </body>
+</html>
+<!--form tag -The form element represents a collection of form-associated elements,
+     some of which can represent editable values that can be submitted to a server for processing. -->
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<!--FORM INPUT TYPES-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my html page</title>
+    </head>
+    <body>
+        <form>
+            <div>
+                Text:
+                <input type="text" ><br>
+                <div>
+                    Submit button:
+                    <input type="submit"><br>
+                </div>  
+                <div>
+                    Colour:
+                    <input type="color"><br>
+                </div>
+                <div>
+                    Date:
+                    <input type="date"><br>
+                </div> 
+                <div>
+                    Email:
+                    <input type="email"><br>
+                </div>
+                <div>
+                    Hidden:
+                    <input type="hidden" value="Delhi"><br>
+                </div> 
+                <div>
+                    Number:
+                    <input type="number"><br>
+                </div>  
+                <div>
+                    Password:
+                    <input type="password"><br>
+                </div>  
+                <div>
+                    Reset:
+                    <input type="reset"><br>
+                </div> 
+                <div>
+                    Time:
+                    <input type="time"><br>
+                </div>   
+                <div>
+                    URL:
+                    <input type="url"><br>
+                </div>  
+                <div>
+                    Range:
+                    <input type="range" min="1000" max="5000"><br>
+                </div>  
+                                          
+            </div>
+
+        </form>
+    </body>
+</html>
+
+
+
+
+
+
+<!--FORM FILE UPLOAD-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my html page</title>
+    </head>
+    <body>
+        <form enctype="multipart/form-data"> <!--enctype attribute is used while uploading at the back end-->
+            <input type="file" multiple> <!--multiple attribute is used to select multiple files-->
+        </form>
+    </body>
+</html>
+
+<br>
+<br>
+<br>
+
+
+
+
+<!--HTML INPUT ATTRIBUTES-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my html page</title>
+    </head>
+    <body>
+        <form> 
+            <input type="text" value="adarsh" readonly><br>
+            <input type="text" value="adarsh" disabled><br>
+            <input type="text" value="adarsh" maxlength="10" size="20"><br>
+            <input type="submit" value="go"><br>
+            <input type="number" min="10" max="20" ><br>
+            <input type="text"  placeholder="Enter name" required ><br>
+            <input type="number" value="1" step="2" ><br>
+            <input type="text" autofocus><br>
+            <input type="text" autocomplete="on"><br>
+            <!--used at the back end -->
+            <input type="text" name="first name">
+            <input type="text" name="middle name">
+            <input type="text" name="last name">
+            
+        </form>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+<!--HTML TEXT AREA AND IMAGE BUTTON-->
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my html page</title>
+    </head>
+    <body>
+        <form>
+            <textarea rows="20" cols="50" placeholder="ENTER DESCRIPTION"> hello..</textarea>
+            <!--value attribute cannot be used here-->
+            <input type="image" src="submit.png" width="100" height="100"> <!--image button -->
+            
+        </form>
+         
+    </body>
+</html>
+
+
+
+
+
+
+
+
+<!--HTML FORM SELECT OPTION/DROPDOWN FORM-->
+<!DOCTYPE html>
+<html>
+    <body>
+        <title>This is my html page</title>
+    </body>
+    <form>
+         <select size="2" multiple>
+             <option> AUDI</option>
+             <option selected>MASERATI</option> <!-- by deafult maserati will be selected at first-->
+             <option>BMW</option>
+             <option> CRICKET</option>
+             <option> FOOTBALL</option>
+             <option> TABLE TENNIS</option>
+         </select>
+    </form>
+</html>
+
+<!DOCTYPE html>  <!--grouping options together-->
+<html>
+    <body>
+        <title>This is my html page</title>
+    </body>
+    <form>
+         <select >
+             <optgroup label="CAR">
+               <option> AUDI</option>
+               <option selected>MASERATI</option> <!-- by deafult maserati will be selected at first-->
+               <option>BMW</option>
+            </optgroup>
+            <optgroup label="SPORTS">
+               <option> CRICKET</option>
+               <option> FOOTBALL</option>
+               <option> TABLE TENNIS</option>
+            </optgroup>   
+         </select>
+    </form>
+</html>
+
+
+
+
+
+
+<!--HTML RADIO BUTTON-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my HTML page</title>
+    </head>
+    <body>
+        <form>
+            <input type="radio">Male 
+            <input type="radio">Female 
+            <input type="radio">Other 
+        </form>
+    </body>
+</html>
+
